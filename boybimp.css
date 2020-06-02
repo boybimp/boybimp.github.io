@@ -1,11 +1,22 @@
 .main{
 	margin: 50px auto 0 auto;
-	width: 600px;	
+    width: 600px;	
+    font-family: Helvetica, Arial, sans-serif;   font-weight: bold; 
+  font-style : italic;
 }
 p{
 	padding-left: 260px;
 	-webkit-animation: p_one 5s infinite linear;
 }
+
+.sup { 
+    color: #fff; 
+    background: red; 
+    padding: 7px 7px; 
+    text-decoration: none;
+    width : auto;
+    margin : auto;
+  }
 
 @-webkit-keyframes p_one{
 	0%{
