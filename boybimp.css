@@ -1,0 +1,28 @@
+.main{
+	margin: 50px auto 0 auto;
+	width: 600px;	
+}
+p{
+	padding-left: 260px;
+	-webkit-animation: p_one 5s infinite linear;
+}
+
+@-webkit-keyframes p_one{
+	0%{
+		letter-spacing: normal;
+	}
+	25%{
+		letter-spacing: -1em;
+		text-indent: 0;
+	}
+	75%{
+		text-indent: 0;
+		letter-spacing: -2.2em;
+   
+	}
+	100%{
+		text-indent: 0;
+		letter-spacing: .5em;
+	}
+
+}
